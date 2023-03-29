@@ -1,0 +1,38 @@
+{
+    "name": "gridze",
+    "version": "0.4.0",
+    "private": true,
+    "description": "Chakra UI datatable, primarily for use in Denk projects.",
+    "main": "src/index.ts",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/ntnp/gridze.git"
+    },
+    "scripts": {
+        "lint": "tsc",
+        "dist": "npm pack --pack-destination=\"./dist\"",
+        "postversion": "npm run dist"
+    },
+    "keywords": [
+        "react",
+        "datatable",
+        "datagrid",
+        "chakra-ui"
+    ],
+    "author": "Natan Pereira",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/ntnp/gridze/issues"
+    },
+    "homepage": "https://github.com/ntnp/gridze#readme",
+    "devDependencies": {
+        "@types/react": "^18.0.17",
+        "typescript": "^4.7.4"
+    },
+    "peerDependencies": {
+        "@chakra-ui/react": "^2.2.8"
+    },
+    "dependencies": {
+        "ts-dots": "git+ssh://git@github.com:ntnp/ts-dots.git"
+    }
+}
